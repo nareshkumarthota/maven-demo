@@ -11,7 +11,7 @@ public class GreeterTest {
 
   @Test
   public void greeterSaysHello() {
-    assertThat(greeter.sayHello(), containsString("Hello12-branch3"));
+    assertThat(greeter.sayHello(), containsString("Hellobranc-3"));
   }
 
 }
